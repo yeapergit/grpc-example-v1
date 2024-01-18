@@ -3,7 +3,6 @@ package calculator.server;
 import com.proto.calculator.CalculatorRequest;
 import com.proto.calculator.CalculatorResponse;
 import com.proto.calculator.CalculatorServiceGrpc;
-import com.proto.greeting.GreetingResponse;
 import io.grpc.stub.StreamObserver;
 
 public class CalculatorServerImpl extends CalculatorServiceGrpc.CalculatorServiceImplBase {

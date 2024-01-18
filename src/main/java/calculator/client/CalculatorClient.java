@@ -3,9 +3,6 @@ package calculator.client;
 import com.proto.calculator.CalculatorRequest;
 import com.proto.calculator.CalculatorResponse;
 import com.proto.calculator.CalculatorServiceGrpc;
-import com.proto.greeting.GreetingRequest;
-import com.proto.greeting.GreetingResponse;
-import com.proto.greeting.GreetingServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
