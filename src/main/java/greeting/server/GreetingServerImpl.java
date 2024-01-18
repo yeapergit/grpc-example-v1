@@ -13,8 +13,4 @@ public class GreetingServerImpl extends GreetingServiceGrpc.GreetingServiceImplB
         responseObserver.onCompleted();
     }
 
-    @Override
-    public void greet() {
-
-    }
 }
